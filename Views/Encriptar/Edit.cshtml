@@ -1,0 +1,25 @@
+﻿@model ExercicioCrpito.Models.EncriptarModel
+
+@{
+    ViewBag.Title = "Edit";
+}
+
+<h2>Texto Descriptografado</h2>
+
+<div>
+    <h4>EncriptarModel</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Texto)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Texto)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Voltar", "Index")
+</p>
